@@ -1,0 +1,45 @@
+{
+    "name": "Luvuyo Bheki Ndlovu",
+    "profilePic": "Shelly.jpg",
+    "city": {
+      "name": "Barcelona",
+      "image": "Barcelona.jpg",
+      "description": "Barcelona, the capital city of Catalonia, is a vibrant city with a rich history and culture. It's home to the Sagrada Familia cathedral, designed by Antoni Gaudi, which has been under construction for over 130 years. The city has a unique language Catalan, and a thriving beach culture with 4.5 kilometers of urban beaches. Barcelona is famous for its modernist architecture, including iconic landmarks like Casa Batllo and Park Guell, also designed by Gaudi. The city hosts the famous La Merce festival and is the capital of the autonomous community of Catalonia. Barcelona has a vibrant food scene, with popular dishes like paella and tapas, is home to the world-renowned Barcelona Pavilion and La Boqueria market. With its unique blend of history, culture, and modernity, Barcelona is a fascinating destination."
+    },
+    "foreignLanguage": {
+      "name": "Spanish Language",
+      "reason": "I would like to learn Spanish because I'm fascinated by the rich culture and history of Spanish-speaking countries. Additionally, learning Spanish can open up new opportunities for travel, communication, and personal growth.",
+      "translations": [
+        {"spanish": "Hola, como estas?", "english": "Hi! How are you?"},
+        {"spanish": "Como te llamas?", "english": "What is your name?"},
+        {"spanish": "Que estas haciendo?", "english": "What are you doing?"},
+        {"spanish": "Cuantos anos tienes?", "english": "How old are you?"}
+      ]
+    },
+    "subjects": [
+      {
+        "name": "4IR TECHNOLOGIES BOOTCAMP",
+        "info": "4IR Bootcamp Technologies course is a training program that teaches individuals the essential skills and technologies needed to thrive in the Fourth Industrial Revolution (4IR). This course covers a range of cutting-edge topics, including Artificial Intelligence (AI), Machine Learning (ML), Internet of Things (IoT), Blockchain, Cloud Computing, Cybersecurity, and Data Science. Through hands-on training and projects, participants learn to design, develop, and deploy innovative solutions that combine physical and digital technologies, preparing them for exciting career opportunities in this rapidly evolving landscape.",
+        "image": "4IR Technologies.jpg"
+      },
+      {
+        "name": "FULLSTACK WEB DEVELOPMENT FOR 4IR",
+        "info": "Full stack web development for 4IR means building websites and applications that combine physical and digital technologies, like sensors and AI, to create interactive and smart experiences. It involves designing and developing the front-end (what users see and interact with), the back-end (the server and database that store and manage data), and the middleware (the connection between the physical and digital worlds). This requires knowledge of various programming languages, frameworks, and tools, such as HTML, CSS, JavaScript, and AI/ML libraries, to create seamless and efficient interactions between humans, machines, and data.",
+        "image": "FullStack.jpg"
+      },
+      {
+        "name": "BUSINESS ENGINEERING SYSTEMS FOR 4IR",
+        "info": "Business Engineering Systems for 4IR refer to the integration of technology, people, and processes to create innovative and efficient solutions for businesses in the Fourth Industrial Revolution. It involves analyzing and improving business operations, supply chains, and customer experiences by leveraging cutting-edge technologies like Artificial Intelligence, Internet of Things, and Blockchain. This fusion of business and technology enables companies to adapt quickly to changing market conditions, make data-driven decisions, and drive growth and competitiveness in a rapidly evolving digital landscape.",
+        "image": "Business Eng.jpg"
+      }
+    ],
+    "historicalPlaces": [
+      {
+        "name": "Gold Reef City",
+        "description": "Gold Reef City is a popular tourist destination in Johannesburg, South Africa. It's built on an old gold mine that closed in 1975. The park offers a thrilling experience with roller coasters, water rides, and other attractions. You can also take a guided tour of the mine, learning about the history of gold mining and even getting to pan for gold yourself. The park has a museum showcasing South Africa's history and a reconstruction of a 19th-century gold mining village. Visitors can also watch live performances like traditional dancing and music. With its unique blend of history, adventure, and entertainment, Gold Reef City is a must-visit destination for everyone traveling to Johannesburg.",
+        "image": "gold reef.jpg"
+      },
+      {
+        "name": "Mandela House",
+        "description": "Mandela House is a special place in Soweto
+  
