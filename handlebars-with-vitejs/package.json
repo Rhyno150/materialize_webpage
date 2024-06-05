@@ -13,14 +13,14 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": " https://github.com/your-repo/materialize_webpage.git"
   },
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Luvuyo Bheki Ndlovu",
+    "email": ""bhekiluvuyo@gmail.com"",
+    "url": "https://github.com/your-repo/materialize_webpage/issues"
   },
   "contributors": [],
   "scripts": {
