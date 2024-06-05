@@ -1,11 +1,7 @@
-import handlebars from 'vite-plugin-handlebars';
 
-const webpageContext = {
-
-
-  "personalDetails": {
+  "user": {
     "name": "Luvuyo Bheki Ndlovu",
-    "profilePic": "Shelly.jpg"
+    "profilePic": "./Shelly.jpg"
   },
   "city": {
     "name": "Barcelona",
@@ -156,8 +152,3 @@ const webpageContext = {
 };
 
 
-export default {
-  plugins: [handlebars({
-    context : webpageContext
-  })]
-};
