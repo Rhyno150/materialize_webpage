@@ -28,14 +28,146 @@
         }
     }
     
+
+    body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding: 5em;
+    background-color: palegoldenrod;
+}
+
+p {
+    line-height: 30px;
+}
+
+hr {
+    margin: 2em auto;
+    height: 2px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.profilePic {
+    border-radius: 15em;
+    width: 18em;
+}
+
+
+.istImage {
+    width: 80%;
+}
+
+.cityDescription {
+    flex: 1;
+    line-height: 30px;
+}
+
+.tableLanguage, tr, th, td {
+    border: 1px solid black;
+}
+
+.tableLanguage {
+    width: 100%;
+}
+
+#webText, .favSubjects {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.flexButton {
+    margin-bottom: 15px;
+}
+
+.subjectImg, .subjectImg01, .subjectImg02 {
+    width: 90%;
+}
+
+.bodyBackground, .Intro {
+    color: black;
+    background-image: url(./table\ mountain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 90%;
+}
+
+.placeInfo {
+    display: flex;
+    flex: 2;
+}
+
+.placePic {
+    margin-right: 5px;
+    flex: 1;
+}
+
+.myFooter {
+    margin-top: 60px;
+}
+
+
+
+#mobilePic {
+    display: inline-block;
+}
+
+@media (min-width: 760px) {
+    .Intro, .contactDetails, .city, .histFlex row, .subjects row {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em;
+    }
+
+    .placeInfo {
+        display: flex;
+        flex: 3;
+    }
+
+    .placePic {
+        margin-right: 5px;
+        flex: 1;
+    }
+
+    .cityPI {
+        flex: 1;
+    }
+
+    #mobilePic {
+        display: none;
+    }
+
+   
+}
+
+@media (max-width: 960px) {
+    .middle {
+        float: right !important;
+    }
+
+    .middle-image {
+        float: left !important;
+    }
+}
+
 </style>
     <!-- Import Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
     <main class="container">
+        <h1 id="name">Luvuyo Bheki Ndlovu</h1>
         <section class="Intro section">
+           
             <div class="personalDetails center-align">
-                <h1 id="name">Luvuyo Bheki Ndlovu</h1>
+                
                 <img class="circle responsive-img" src="./Shelly.jpg" alt="Profile Picture" width="200px" height="200px">
             </div>
             <div class="divider"></div>
@@ -168,7 +300,7 @@
 
         <section class="section">
             <h1 class="center-align">Johannesburg Historical Places</h1>
-            <div class="histFlex row">
+            <div class="histFlex row ">
                 <div class="col s12 m4">
                     <div class="card">
                         <div class="card-image">
